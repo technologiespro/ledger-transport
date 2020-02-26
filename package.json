@@ -1,0 +1,35 @@
+{
+  "name": "@smartholdem/ledger-transport",
+  "version": "1.0.0",
+  "description": "STH Transport layer for the Ledger Hardware Wallet",
+  "keywords": [
+    "Ledger",
+    "LedgerWallet",
+    "NanoS",
+    "NanoX",
+    "Hardware Wallet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/technologiespro/ledger-transport"
+  },
+  "bugs": {
+    "url": "https://github.com/technologiespro/ledger-transport/issues"
+  },
+  "homepage": "https://github.com/technologiespro/ledger-transport",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/",
+  "author": "TechnoL0g <technologies.bro@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@ledgerhq/hw-transport": "^5.7.0",
+    "@types/node": "^13.5.0",
+    "typescript": "^3.7.5"
+  }
+}
